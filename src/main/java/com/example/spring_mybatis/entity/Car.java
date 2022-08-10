@@ -7,17 +7,15 @@ import lombok.Setter;
 
 /**
  * @Author TuanNA
- * @Date 10/08/2022 9:23 PM
+ * @Date 10/08/2022 11:31 PM
  * @Version 1.0
  */
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class Car {
     private Integer id;
-    private String fullName;
-    private String userName;
-    private String password;
-    private String phone;
+    private String name;
+    private String color;
 }
